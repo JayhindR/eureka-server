@@ -1,7 +1,11 @@
 spring:
   application:
     name: netflix-eureka-naming-server
-
+  devtools:
+    add-properties: false
+  cloud:
+    config:
+      enabled: false
 server:
   port: 8761
   
